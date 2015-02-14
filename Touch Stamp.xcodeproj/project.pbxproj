@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC24BD3C1A8F3CD20000C646 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC24BD3B1A8F3CD20000C646 /* main.m */; };
+		CC24BD3F1A8F3CD20000C646 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC24BD3E1A8F3CD20000C646 /* AppDelegate.m */; };
+		CC24BD421A8F3CD20000C646 /* Touch_Stamp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC24BD401A8F3CD20000C646 /* Touch_Stamp.xcdatamodeld */; };
+		CC24BD451A8F3CD20000C646 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC24BD441A8F3CD20000C646 /* ViewController.m */; };
+		CC24BD481A8F3CD20000C646 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC24BD461A8F3CD20000C646 /* Main.storyboard */; };
+		CC24BD4A1A8F3CD20000C646 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC24BD491A8F3CD20000C646 /* Images.xcassets */; };
+		CC24BD4D1A8F3CD20000C646 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC24BD4B1A8F3CD20000C646 /* LaunchScreen.xib */; };
+		CC24BD591A8F3CD30000C646 /* Touch_StampTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC24BD581A8F3CD30000C646 /* Touch_StampTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC24BD531A8F3CD30000C646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC24BD2E1A8F3CD20000C646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC24BD351A8F3CD20000C646;
+			remoteInfo = "Touch Stamp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC24BD361A8F3CD20000C646 /* Touch Stamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Touch Stamp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC24BD3A1A8F3CD20000C646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC24BD3B1A8F3CD20000C646 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC24BD3D1A8F3CD20000C646 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC24BD3E1A8F3CD20000C646 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC24BD411A8F3CD20000C646 /* Touch_Stamp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Touch_Stamp.xcdatamodel; sourceTree = "<group>"; };
+		CC24BD431A8F3CD20000C646 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC24BD441A8F3CD20000C646 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC24BD471A8F3CD20000C646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC24BD491A8F3CD20000C646 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC24BD4C1A8F3CD20000C646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CC24BD521A8F3CD30000C646 /* Touch StampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Touch StampTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC24BD571A8F3CD30000C646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC24BD581A8F3CD30000C646 /* Touch_StampTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Touch_StampTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC24BD331A8F3CD20000C646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC24BD4F1A8F3CD30000C646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC24BD2D1A8F3CD20000C646 = {
+			isa = PBXGroup;
+			children = (
+				CC24BD381A8F3CD20000C646 /* Touch Stamp */,
+				CC24BD551A8F3CD30000C646 /* Touch StampTests */,
+				CC24BD371A8F3CD20000C646 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC24BD371A8F3CD20000C646 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC24BD361A8F3CD20000C646 /* Touch Stamp.app */,
+				CC24BD521A8F3CD30000C646 /* Touch StampTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC24BD381A8F3CD20000C646 /* Touch Stamp */ = {
+			isa = PBXGroup;
+			children = (
+				CC24BD3D1A8F3CD20000C646 /* AppDelegate.h */,
+				CC24BD3E1A8F3CD20000C646 /* AppDelegate.m */,
+				CC24BD431A8F3CD20000C646 /* ViewController.h */,
+				CC24BD441A8F3CD20000C646 /* ViewController.m */,
+				CC24BD461A8F3CD20000C646 /* Main.storyboard */,
+				CC24BD491A8F3CD20000C646 /* Images.xcassets */,
+				CC24BD4B1A8F3CD20000C646 /* LaunchScreen.xib */,
+				CC24BD401A8F3CD20000C646 /* Touch_Stamp.xcdatamodeld */,
+				CC24BD391A8F3CD20000C646 /* Supporting Files */,
+			);
+			path = "Touch Stamp";
+			sourceTree = "<group>";
+		};
+		CC24BD391A8F3CD20000C646 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC24BD3A1A8F3CD20000C646 /* Info.plist */,
+				CC24BD3B1A8F3CD20000C646 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC24BD551A8F3CD30000C646 /* Touch StampTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC24BD581A8F3CD30000C646 /* Touch_StampTests.m */,
+				CC24BD561A8F3CD30000C646 /* Supporting Files */,
+			);
+			path = "Touch StampTests";
+			sourceTree = "<group>";
+		};
+		CC24BD561A8F3CD30000C646 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC24BD571A8F3CD30000C646 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC24BD351A8F3CD20000C646 /* Touch Stamp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC24BD5C1A8F3CD30000C646 /* Build configuration list for PBXNativeTarget "Touch Stamp" */;
+			buildPhases = (
+				CC24BD321A8F3CD20000C646 /* Sources */,
+				CC24BD331A8F3CD20000C646 /* Frameworks */,
+				CC24BD341A8F3CD20000C646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Touch Stamp";
+			productName = "Touch Stamp";
+			productReference = CC24BD361A8F3CD20000C646 /* Touch Stamp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC24BD511A8F3CD30000C646 /* Touch StampTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC24BD5F1A8F3CD30000C646 /* Build configuration list for PBXNativeTarget "Touch StampTests" */;
+			buildPhases = (
+				CC24BD4E1A8F3CD30000C646 /* Sources */,
+				CC24BD4F1A8F3CD30000C646 /* Frameworks */,
+				CC24BD501A8F3CD30000C646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC24BD541A8F3CD30000C646 /* PBXTargetDependency */,
+			);
+			name = "Touch StampTests";
+			productName = "Touch StampTests";
+			productReference = CC24BD521A8F3CD30000C646 /* Touch StampTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC24BD2E1A8F3CD20000C646 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "岡部　修典";
+				TargetAttributes = {
+					CC24BD351A8F3CD20000C646 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					CC24BD511A8F3CD30000C646 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = CC24BD351A8F3CD20000C646;
+					};
+				};
+			};
+			buildConfigurationList = CC24BD311A8F3CD20000C646 /* Build configuration list for PBXProject "Touch Stamp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC24BD2D1A8F3CD20000C646;
+			productRefGroup = CC24BD371A8F3CD20000C646 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC24BD351A8F3CD20000C646 /* Touch Stamp */,
+				CC24BD511A8F3CD30000C646 /* Touch StampTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC24BD341A8F3CD20000C646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC24BD481A8F3CD20000C646 /* Main.storyboard in Resources */,
+				CC24BD4D1A8F3CD20000C646 /* LaunchScreen.xib in Resources */,
+				CC24BD4A1A8F3CD20000C646 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC24BD501A8F3CD30000C646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC24BD321A8F3CD20000C646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC24BD3F1A8F3CD20000C646 /* AppDelegate.m in Sources */,
+				CC24BD3C1A8F3CD20000C646 /* main.m in Sources */,
+				CC24BD451A8F3CD20000C646 /* ViewController.m in Sources */,
+				CC24BD421A8F3CD20000C646 /* Touch_Stamp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC24BD4E1A8F3CD30000C646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC24BD591A8F3CD30000C646 /* Touch_StampTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC24BD541A8F3CD30000C646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC24BD351A8F3CD20000C646 /* Touch Stamp */;
+			targetProxy = CC24BD531A8F3CD30000C646 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC24BD461A8F3CD20000C646 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC24BD471A8F3CD20000C646 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC24BD4B1A8F3CD20000C646 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC24BD4C1A8F3CD20000C646 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC24BD5A1A8F3CD30000C646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC24BD5B1A8F3CD30000C646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC24BD5D1A8F3CD30000C646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Touch Stamp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC24BD5E1A8F3CD30000C646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Touch Stamp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC24BD601A8F3CD30000C646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Touch StampTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Touch Stamp.app/Touch Stamp";
+			};
+			name = Debug;
+		};
+		CC24BD611A8F3CD30000C646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Touch StampTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Touch Stamp.app/Touch Stamp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC24BD311A8F3CD20000C646 /* Build configuration list for PBXProject "Touch Stamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC24BD5A1A8F3CD30000C646 /* Debug */,
+				CC24BD5B1A8F3CD30000C646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC24BD5C1A8F3CD30000C646 /* Build configuration list for PBXNativeTarget "Touch Stamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC24BD5D1A8F3CD30000C646 /* Debug */,
+				CC24BD5E1A8F3CD30000C646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC24BD5F1A8F3CD30000C646 /* Build configuration list for PBXNativeTarget "Touch StampTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC24BD601A8F3CD30000C646 /* Debug */,
+				CC24BD611A8F3CD30000C646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CC24BD401A8F3CD20000C646 /* Touch_Stamp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CC24BD411A8F3CD20000C646 /* Touch_Stamp.xcdatamodel */,
+			);
+			currentVersion = CC24BD411A8F3CD20000C646 /* Touch_Stamp.xcdatamodel */;
+			path = Touch_Stamp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CC24BD2E1A8F3CD20000C646 /* Project object */;
+}

@@ -55,6 +55,7 @@
         
         [self.view addSubview:imageView];
         
+        [self.view addSubview:imageView];
     }
     
     

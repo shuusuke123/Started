@@ -15,6 +15,11 @@
 		CC24BD4A1A8F3CD20000C646 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC24BD491A8F3CD20000C646 /* Images.xcassets */; };
 		CC24BD4D1A8F3CD20000C646 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC24BD4B1A8F3CD20000C646 /* LaunchScreen.xib */; };
 		CC24BD591A8F3CD30000C646 /* Touch_StampTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC24BD581A8F3CD30000C646 /* Touch_StampTests.m */; };
+		CC24BD631A8F43590000C646 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = CC24BD621A8F43590000C646 /* 4.png */; };
+		CC24BD651A8F435E0000C646 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = CC24BD641A8F435E0000C646 /* 3.png */; };
+		CC24BD671A8F43610000C646 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = CC24BD661A8F43610000C646 /* 2.png */; };
+		CC24BD691A8F43650000C646 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = CC24BD681A8F43650000C646 /* 1.png */; };
+		CC24BD6B1A8F5EA10000C646 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = CC24BD6A1A8F5EA10000C646 /* 5.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +47,11 @@
 		CC24BD521A8F3CD30000C646 /* Touch StampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Touch StampTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC24BD571A8F3CD30000C646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC24BD581A8F3CD30000C646 /* Touch_StampTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Touch_StampTests.m; sourceTree = "<group>"; };
+		CC24BD621A8F43590000C646 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4.png; path = ../../4.png; sourceTree = "<group>"; };
+		CC24BD641A8F435E0000C646 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.png; path = ../../3.png; sourceTree = "<group>"; };
+		CC24BD661A8F43610000C646 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = ../../2.png; sourceTree = "<group>"; };
+		CC24BD681A8F43650000C646 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = ../../1.png; sourceTree = "<group>"; };
+		CC24BD6A1A8F5EA10000C646 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5.png; path = ../../5.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +93,11 @@
 		CC24BD381A8F3CD20000C646 /* Touch Stamp */ = {
 			isa = PBXGroup;
 			children = (
+				CC24BD6A1A8F5EA10000C646 /* 5.png */,
+				CC24BD621A8F43590000C646 /* 4.png */,
+				CC24BD641A8F435E0000C646 /* 3.png */,
+				CC24BD661A8F43610000C646 /* 2.png */,
+				CC24BD681A8F43650000C646 /* 1.png */,
 				CC24BD3D1A8F3CD20000C646 /* AppDelegate.h */,
 				CC24BD3E1A8F3CD20000C646 /* AppDelegate.m */,
 				CC24BD431A8F3CD20000C646 /* ViewController.h */,
@@ -202,9 +217,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC24BD671A8F43610000C646 /* 2.png in Resources */,
+				CC24BD651A8F435E0000C646 /* 3.png in Resources */,
+				CC24BD631A8F43590000C646 /* 4.png in Resources */,
 				CC24BD481A8F3CD20000C646 /* Main.storyboard in Resources */,
 				CC24BD4D1A8F3CD20000C646 /* LaunchScreen.xib in Resources */,
+				CC24BD6B1A8F5EA10000C646 /* 5.png in Resources */,
 				CC24BD4A1A8F3CD20000C646 /* Images.xcassets in Resources */,
+				CC24BD691A8F43650000C646 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

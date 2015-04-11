@@ -54,9 +54,7 @@
         imageView.center =CGPointMake(location.x,location.y);
         
         [self.view addSubview:imageView];
-        
-        [self.view addSubview:imageView];
-    }
+}
     
     
     
